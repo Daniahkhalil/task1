@@ -1,0 +1,104 @@
+.container{
+    background-color: blue;
+    width:700px;
+    height:600px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 2% ;
+    border: 2px solid black;
+}
+
+
+.item1 ,.item2{
+    padding: 10px;
+    margin: 12px;
+    height:10%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.links-items{
+    width: 100%;
+    
+
+}
+.col,.price{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; 
+    position: relative;
+    top: -18px;
+
+}
+.price{
+    padding-top: 33px ;
+}
+
+.item1 ,.item2,#links{
+    width:50% ;
+}
+#links{
+    
+    display: flex;
+    justify-content:space-around;
+}
+.item1{
+    background-color: #fec118;
+}
+.item2{
+    background-color:#fff0c7 ;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.separator {
+  
+    border: none;
+    border-top: 2px solid black;
+    width: 100%; /* Ensure the separator spans the width of the container */
+}
+a{
+    color: white;
+}
+img{
+    width: 70%;
+    height: 70%;
+}
+.text-area{
+   width: 50%;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top:20px;
+    
+}
+.all{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 10px;
+    margin: 2px;
+}
+.output{
+  
+    height: 16%;
+    border-radius: 3px; /* Example border radius */
+    background-color: rgba(231, 198, 198, 0.966);
+    border: 2px solid white;
+ 
+    
+}
+.output p{
+  
+
+    color: rgb(250, 131, 151);
+    margin-top: 1px;
+    
+}
+h1,p{
+    font-weight:bold;
+}
