@@ -7,6 +7,7 @@
     flex-direction: column;
     border-radius: 2% ;
     border: 2px solid black;
+    margin: auto;
 }
 
 
@@ -43,6 +44,8 @@
     
     display: flex;
     justify-content:space-around;
+    position: relative;
+    left: 30px;
 }
 .item1{
     background-color: #fec118;
@@ -58,7 +61,11 @@ h1{
   
     border: none;
     border-top: 2px solid black;
-    width: 100%; /* Ensure the separator spans the width of the container */
+    /* width: 100%; Ensure the separator spans the width of the container */
+    text-align: center; /* Optional: Align text inside the element */
+    margin: 11px;
+    padding: 0;
+    height: 1px; /* Set the height of the horizontal rule */
 }
 a{
     color: white;
@@ -73,7 +80,9 @@ img{
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    margin-top:20px;
+    position: relative;
+    top: 20px;
+    right: 38px;
     
 }
 .all{
@@ -86,19 +95,24 @@ img{
 .output{
   
     height: 16%;
-    border-radius: 3px; /* Example border radius */
-    background-color: rgba(231, 198, 198, 0.966);
+    border-radius: 5px; /* Example border radius */
+    background: linear-gradient(to right, grey 10%, white 50%, grey 90%); /* Apply gradient background */
     border: 2px solid white;
  
     
 }
 .output p{
-  
-
     color: rgb(250, 131, 151);
     margin-top: 1px;
+    font-size: 14px;
     
 }
 h1,p{
     font-weight:bold;
+}
+.colortacos{
+    background-color: #d19c1a;
+}
+.colorkfc{
+    background-color: #e8dbb3;
 }
